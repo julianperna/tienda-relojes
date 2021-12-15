@@ -200,8 +200,7 @@ class UI {
 		carritoCenter.addEventListener("click", e =>{
 			const target = e.target.closest("span")
 			const targetElement = target.classList.contains("remove__item");
-			console.log(target)
-			console.log(targetElement)
+			
 			if(!target) return
 			if(targetElement){
 				const id = parseInt(target.dataset.id);
