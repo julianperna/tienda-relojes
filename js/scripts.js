@@ -12,6 +12,7 @@ const detalles = document.getElementById('detalles')
 let carrito = [];
 let buttonDOM = [];
 
+
 class UI {
 
 	detalleProducto(id){

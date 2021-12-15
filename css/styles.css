@@ -3,7 +3,7 @@
 :root{
      --negro: #222;
     --blanco: #fff;
-    --azul: #0751a6;
+    --gris: #888080;
     --amarillo: #d3b717;
     --rojo: #ff070b;
 }
@@ -30,6 +30,13 @@ h2,
 h3,
 h4{
     font-weight: 400;
+}
+.reloj{
+  color: gray;
+  font-size: 20px;
+}
+.carro{
+font-size: 20px;
 }
 img{
     max-width: 100%;
@@ -75,6 +82,7 @@ li{
 }
 h1{
  color: var(--rojo);
+ font-size: 25px;
 }
 .nav__logo {
     font-size: 2rem;
@@ -185,9 +193,9 @@ h1{
     transition: all 300ms ease-in-out;
 }
 .btn:hover{
-    background-color: var(--azul);
+    background-color: var(--gris);
     color: var(--blanco);
-    border: 1px solid var(--azul);
+    border: 1px solid var(--negro);
 }
 .price{
     font-weight: 700;
@@ -272,7 +280,7 @@ h1{
     margin-bottom: 1.5rem;
 }
 .carrito__item .price{
-    color: var(--azul);
+    color: var(--gris);
     font-weight: 700;
 }
 .carrito__item .remove__item{
@@ -425,8 +433,8 @@ text-align: center;
 }
 @media (min-width: 768px){
     .filter .grid{
-        grid-template-columns: 480px 200px;
-        justify-content: space-between;
+        grid-template-columns: 250px ;
+        justify-content: center;
         max-width: 1092px;
         margin: auto;
     }
@@ -457,7 +465,7 @@ text-align: center;
     text-transform: uppercase;
 }
 .detalles-content .precio span{
-    color: var(--azul);
+    color: var(--gris);
     font-size: 2rem;
     font-weight: 600;
 }
