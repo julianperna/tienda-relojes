@@ -80,13 +80,14 @@ li{
     align-items: center;
     height: 100%;
 }
-h1{
- color: var(--rojo);
- font-size: 25px;
-}
+
 .nav__logo {
     font-size: 2rem;
-    
+  
+}
+.nav__logo a{
+  color: var(--rojo);
+ font-size: 25px;
 }
 .nav__logo span{
     color: var(--rojo);
