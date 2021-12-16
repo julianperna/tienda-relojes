@@ -18,6 +18,9 @@
   background-color: rgba(250, 240, 245 0, 9);
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
@@ -25,11 +28,12 @@
   -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
   z-index: 100000;
+  
 }
+
 #carga {
   border: 15px solid #ccc;
-  border-top-color: #8b898a;
-  border-top-style: groove;
+  border-left-color: #575656;
   height: 100px;
   width: 100px;
   border-radius: 100%;
@@ -37,24 +41,19 @@
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  animation: girar 3s linear infinite;
-  -webkit-animation: girar 3s linear infinite;
+
+  animation: girar 1s ease infinite;
+  -webkit-animation: girar 1s ease infinite;
 }
 @keyframes girar {
-  from {
+  0% {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -119,7 +118,15 @@ li {
   width: 100%;
   padding: 1.5rem 0;
   line-height: 1rem;
-  background-color: var(--blanco);
+  background-color: var(--negro);
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+nav.abajo{
+  background: #fff;
 }
 .nav__center {
   display: flex;

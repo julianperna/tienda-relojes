@@ -17,6 +17,11 @@ window.onload = function () {
   contenedor.style.visibility = "hidden";
   contenedor.style.opacity = "0";
 };
+
+window.addEventListener("scroll", function(){
+let nav= document.getElementById("barra");
+nav.classList.toggle("abajo", window.scrollY>0);
+})
 class UI {
   detalleProducto(id) {
     const filtroDato = productos.filter((item) => item.id == id);
