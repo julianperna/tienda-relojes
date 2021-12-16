@@ -171,7 +171,7 @@ class UI {
 				<i class="far fa-trash-alt"></i>
 			</span>
 		</div>
-		`;
+		`
 		carritoCenter.appendChild(div)
 	}
 	show(){
