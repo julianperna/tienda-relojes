@@ -7,13 +7,12 @@
 ## Comenzando 🚀
 _Creacion de Relojeria online_
 
+Utilización de Grid y Flexbox
 ## Sitio Reb Responsive
+
 
 ### Componentes usados en el proyecto 
 
-
-
-Utilización de Grid y Flexbox
 
 1. Navbar
 2. Iconos usando fontawesome
