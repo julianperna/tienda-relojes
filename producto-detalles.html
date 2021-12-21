@@ -12,53 +12,69 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <!-- Iconos Fontawesome -->
   <script src="https://kit.fontawesome.com/f0d309a159.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicons/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <!--Navegacion-->
   <header>
-    <nav class="nav">
+    <nav class="nav" id="barra">
       <div class="nav__center container">
         <a href="./index.html">
           <div class="nav__logo">
             <h1>AWEX</h1>
           </div>
         </a>
-        <ul class="nav__list">
-          <span>
-            <i class="fas fa-clock reloj"></i>
-          </span>
-          <div class="carrito__icon">
-            <i class="fas fa-shopping-cart"></i>
-            <span class="item__total">0</span>
-          </div>
-        </ul>
+<ul class="nav__list">
+  <span>
+    <i class="fas fa-clock reloj"></i>
+  </span>
+  <div class="carrito__icon">
+    <i class="fas fa-shopping-cart carro"></i>
+    <span class="item__total">0</span>
+  </div>
+</ul>
       </div>
     </nav>
   </header>
 
-
+  <section class="carrito__overlay">
+    <div class="carrito">
+      <span class="close__carrito">
+        <i class="fas fa-times"></i>
+      </span>
+      <h2>Su carrito</h2>
+      <div class="carrito__center">
+  
+      </div>
+      <div class="carrito__footer">
+        <h3>Total: $
+          <span class="carrito__total">0</span>
+        </h3>
+        <button class="clear__carrito btn">remover carrito</button>
+      </div>
+    </div>
+  </section>
+ 
   <main class="container detalles" id="detalles">
 
     <!--Carrito-->
-    <section class="carrito__overlay">
-      <div class="carrito">
-        <span class="close__carrito">
-          <i class="fas fa-times"></i>
-        </span>
-        <h2>Su Carrito</h2>
-
-        <div class="carrito__center">
-
-        </div>
-
-        <div class="carrito__footer">
-          <h3>Total: $ <span class="carrito__total">0</span></h3>
-          <button class="clear__carrito btn">remover carrito</button>
-        </div>
-      </div>
-    </section>
   </main>
+
   <script src="./js/scripts.js"></script>
 </body>
 
