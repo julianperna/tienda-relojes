@@ -9,6 +9,8 @@ const clearCarritoBtn = document.querySelector(".clear__carrito");
 const itemTotales = document.querySelector(".item__total");
 const detalles = document.getElementById("detalles");
 
+
+
 let carrito = [];
 let buttonDOM = [];
 
@@ -17,6 +19,7 @@ window.onload = function () {
   contenedor.style.visibility = "hidden";
   contenedor.style.opacity = "0";
 };
+
 
 window.addEventListener("scroll", function(){
 let nav= document.getElementById("barra");
